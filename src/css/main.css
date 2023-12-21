@@ -1,0 +1,19 @@
+.portfolio {
+  padding: 1em;
+  border: 1px solid #0f0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.filter-item {
+  border: 0.1em solid #888;
+  margin: 0.2em 0.2em;
+  padding: 0.3em 1em;
+}
+
+.filter-item.selected {
+  background-color: #888;
+  color: whitesmoke;
+}
