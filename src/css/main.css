@@ -1,19 +1,38 @@
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+
 .portfolio {
-  padding: 1em;
-  border: 1px solid #0f0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  display: block;
+  width: 960px;
+}
+
+.toolbar {
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0.3rem 10px 2rem 10px
+}
+
+.project-list {
+  margin: 1rem 0rem;
+  columns: 3;
 }
 
 .filter-item {
-  border: 0.1em solid #888;
-  margin: 0.2em 0.2em;
-  padding: 0.3em 1em;
+  border: 0.05rem solid dimgray;
+  margin-right: 0.4rem;
+  padding: 0.3rem 1rem;
+  color:dimgray;
 }
 
 .filter-item.selected {
-  background-color: #888;
+  border: 0.05rem solid whitesmoke;
+  background-color: dimgray;
   color: whitesmoke;
+}
+
+.item-image {
+  margin: 10px;
+  width: 300px;
 }
